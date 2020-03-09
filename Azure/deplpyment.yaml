@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello
-        image: sateco2.azurecr.io/syprashahellonode
+        image: sateco2.azurecr.io/syprashahellonode:11
         resources:
           requests:
             cpu: 100m
